@@ -20,15 +20,16 @@ xdg-open https://www.arduino.cc/en/Main/Software &
 xdg-open http://www.codeblocks.org/ &
 
 #system tools
+# sudo apt-get install xfe -y
 sudo apt-get install caja -y
 sudo apt-get install gnome-schedule -y
 sudo apt-get install gparted -y
 sudo apt-get install gedit -y
 sudo apt-get install geany -y
 sudo apt-get install dolphin -y
-# sudo apt-get install xfe -y
 sudo apt-get install gdebi -y
 sudo apt-get install cifs-utils -y
+sudo apt-get install ntp -y
 
 #bluetooth audio tools
 sudo apt-get install bluez -y

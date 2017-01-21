@@ -2,6 +2,7 @@
 
 sudo apt-get update -y
 sudo apt-get upgrade -y
+sudo apt-get autoremove -y
 
 #network tools
 sudo apt-get install firefox-esr -y

@@ -11,6 +11,7 @@ sudo apt-get install icedove -y
 #media tools
 sudo apt-get install mplayer2 -y
 sudo apt-get install gimp -y
+#sudo apt-get install lmms -y
 
 #programming tools #old version on RPi
 sudo apt-get install arduino -y

@@ -12,6 +12,9 @@ sudo apt-get install icedove -y
 sudo apt-get install mplayer2 -y
 sudo apt-get install gimp -y
 #sudo apt-get install lmms -y
+#sudo apt-get install audacity -y
+#sudo apt-get install jackd qjackctl -y
+#sudo apt-get install mixxx -y
 
 #programming tools #old version on RPi
 sudo apt-get install arduino -y

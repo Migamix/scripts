@@ -33,6 +33,7 @@ sudo apt-get install geany -y
 sudo apt-get install gdebi -y
 sudo apt-get install cifs-utils -y
 sudo apt-get install ntp -y
+sudo apt-get intstal htop -y
 
 #directory tools
 # sudo apt-get install xfe -y

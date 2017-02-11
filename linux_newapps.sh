@@ -18,7 +18,7 @@ sudo apt-get install gimp -y
 #sudo apt-get install mixxx -y
 
 #programming tools #old version on RPi
-sudo apt-get install arduino -y
+sudo apt-get install arduino arduino-core -y
 sudo apt-get install codeblocks -y
 echo "you can download some updated files while you wait"
 echo " and install them on top of the auto downloaded files"

@@ -5,22 +5,19 @@ sudo apt-get upgrade -y
 #sudo apt-get autoremove -y
 
 #network tools
-sudo apt-get install firefox-esr -y
-sudo apt-get install icedove -y
+#sudo apt-get install firefox-esr -y
+#sudo apt-get install icedove -y
 sudo apt-get install filezilla -y
 
 #media tools
 sudo apt-get install mplayer2 -y
 sudo apt-get install gimp -y
-#sudo apt-get install lmms -y
-#sudo apt-get install audacity -y
-#sudo apt-get install jackd qjackctl -y
-#sudo apt-get install mixxx -y
+sudo apt-get install lmms -y
+sudo apt-get install audacity -y
+sudo apt-get install jackd qjackctl -y
+sudo apt-get install mixxx -y
 
 #programming tools #old version on RPi
-echo "you can download some updated files while you wait"
-echo " and install them on top of the auto downloaded files"
-xdg-open https://www.arduino.cc/en/Main/Software & http://www.codeblocks.org/ &
 sudo apt-get install arduino arduino-core -y
 sudo apt-get install codeblocks -y
 sudo apt-get install gedit -y
@@ -36,9 +33,9 @@ sudo apt-get install ntp -y
 sudo apt-get install htop -y
 
 #directory tools
-# sudo apt-get install xfe -y
 sudo apt-get install caja -y
-sudo apt-get install dolphin -y
+# sudo apt-get install xfe -y
+#sudo apt-get install dolphin -y
 
 #bluetooth audio tools
 sudo apt-get install bluez -y

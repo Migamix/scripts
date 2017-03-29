@@ -31,6 +31,7 @@ sudo apt-get install gdebi -y
 sudo apt-get install cifs-utils -y
 sudo apt-get install ntp -y
 sudo apt-get install htop -y
+sudo apt-get install system-config-samba -y
 
 #directory tools
 sudo apt-get install caja -y

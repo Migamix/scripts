@@ -7,4 +7,4 @@ sudo apt dist-upgrade
 sudo apt install rpi-update -y
 sudo rpi-update
 read -p "press a button to reboot, or shut down this script" 
-sudo reboot
+sudo shutdown -r +1

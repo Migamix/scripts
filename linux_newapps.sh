@@ -59,4 +59,4 @@ sudo apt install rpi-update -y
 sudo rpi-update -y
 
 read -p "press a button to reboot, or shut down this script" 
-sudo shutdown -h
+sudo shutdown -r +1

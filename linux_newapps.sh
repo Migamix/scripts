@@ -32,6 +32,8 @@ sudo apt install cifs-utils -y
 sudo apt install ntp -y
 sudo apt install htop -y
 sudo apt install system-config-samba -y
+sudo apt install samba samba-common-bin -y
+sudo nano /etc/samba/smb.conf
 
 #directory tools
 sudo apt install caja -y
@@ -49,7 +51,7 @@ sudo apt install pavucontrol -y
 sudo apt install pulseaudio-module-bluetooth -y
 
 #virtual sudo apt-get install matchbox-keyboardkeyboard
-sudo apt install matchbox-keyboard
+sudo apt install matchbox-keyboard -y
 sudo apt install florence -y
 sudo apt install at-spi2-core -y
 

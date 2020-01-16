@@ -2,26 +2,25 @@
 
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt autoremove -y
 
 #network tools
-sudo apt install firefox-esr -y
-sudo apt install icedove -y
-sudo apt install filezilla -y
+#sudo apt install firefox-esr -y
+#sudo apt install icedove -y
+#sudo apt install filezilla -y
 
 #media tools
-sudo apt install mplayer2 -y
-sudo apt install gimp -y
-sudo apt install lmms -y
-sudo apt install audacity -y
-sudo apt install jackd qjackctl -y
-sudo apt install mixxx -y
+#sudo apt install mplayer2 -y
+#sudo apt install gimp -y
+#sudo apt install lmms -y
+#sudo apt install audacity -y
+#sudo apt install jackd qjackctl -y
+#sudo apt install mixxx -y
 
 #programming tools #old version on RPi
-sudo apt install arduino arduino-core -y # verify this installs the latest version
-sudo apt install codeblocks -y
-sudo apt install gedit -y
-sudo apt install geany -y
+#sudo apt install arduino arduino-core -y # verify this installs the latest version
+#sudo apt install codeblocks -y
+#sudo apt install gedit -y
+#sudo apt install geany -y
 
 
 #system tools
@@ -36,7 +35,7 @@ sudo apt install samba samba-common-bin -y
 sudo nano /etc/samba/smb.conf
 
 #directory tools
-sudo apt install caja -y
+#sudo apt install caja -y
 # other directory options below
 #sudo apt-get install xfe -y
 #sudo apt-get install dolphin -y
@@ -51,10 +50,11 @@ sudo apt install pavucontrol -y
 sudo apt install pulseaudio-module-bluetooth -y
 
 #virtual sudo apt-get install matchbox-keyboardkeyboard
-sudo apt install matchbox-keyboard -y
-sudo apt install florence -y
-sudo apt install at-spi2-core -y
+#sudo apt install matchbox-keyboard -y
+#sudo apt install florence -y
+#sudo apt install at-spi2-core -y
 
+sudo apt autoremove -y
 sudo apt dist-upgrade
 # below for raspbery pi only (will fail to do anything if not on RPI)
 sudo apt install rpi-update -y
